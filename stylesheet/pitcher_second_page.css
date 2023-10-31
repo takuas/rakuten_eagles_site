@@ -1,0 +1,21 @@
+@import url("pitcher.css");
+
+.cell_top {
+  position: sticky;
+  top: 0;
+  left: 2px;
+}
+
+.cell_center {
+  position: sticky;
+  top: 0;
+  left: 72px;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.cell_right {
+  position: sticky;
+  top: 0;
+  left: 200px;
+}

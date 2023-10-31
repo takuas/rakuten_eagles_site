@@ -1,0 +1,9 @@
+@import url("pitcher.css");
+
+.cell_center {
+  left: 63px;
+}
+
+.cell_right{
+  left: 280px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>イーグルス戦績サイト</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/reset.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/pitcher.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/batting.css">
+
+    <script src="Javascript/table_create.js"></script>
+    <script src="Javascript/batting.js"></script>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="sub_content">
+        <img class="team_image" src="images/team_image.png" alt="楽天チームロゴ">
+        <a class="link_content" href="index.html">チーム順位</a>
+        <a class="link_content" href="pitcher.html">投手成績</a>
+        <a class="link_content current_page" href="batting.html" class="current_page">野手成績</a>
+        <a class="link_content" href="league_ranking.html">
+          <div>パリーグランキング</div>
+          <div>投手・野手</div>
+        </a>
+        <a class="link_content" href="title_holder.html">今年のタイトルホルダー</a>
+      </div>
+      <div class="main_content">
+        <div class="ranking_title">野手成績</div>
+      
+        <div class="ranking_table" id="pitcher_score" ></div>
+        <div class="link_page">
+          <div class="link_page_btn">1</div>
+          <a class="link_page_btn" href="batting_second.html">2</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

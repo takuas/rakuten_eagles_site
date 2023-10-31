@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>イーグルス戦績サイト</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/index.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/reset.css">
+    <script src="javascript/table_create.js"></script>
+    <script src="javascript/team_ranking.js"></script>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="sub_content">
+        <img class="team_image" src="images/team_image.png" alt="楽天チームロゴ">
+        <div class="select_content">チーム順位</div>
+        <a href="pitcher.html">投手成績</a>
+        <a href="batting.html">野手成績</a>
+        <a href="league_ranking.html">
+          <div>パリーグランキング</div>
+          <div>投手・野手</div>
+        </a>
+        <a href="title_holder.html">今年のタイトルホルダー</a>
+      </div>
+      <div class="main_content">
+        <div class="index_title">楽天イーグルスファンのための戦績ポータル</div>
+        <div class="index_sub_title">
+          2023年のシーズンは<span class="index_number_title">4</span>位
+          <img class="title_frame" src="images/midasi_rankinngu.png" alt="フレーム">
+        </div>
+        <div class="ranking_title">チーム順位表</div>
+        <div class="ranking_table" id="team_ranking"></div>
+        <div class="ranking_second_title">交流戦順位表</div>
+        <div class="ranking_table" id="Interleague_match"></div>
+      </div>
+    </div>
+  </body>
+</html>

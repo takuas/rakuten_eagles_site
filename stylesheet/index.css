@@ -1,0 +1,167 @@
+/**********
+ページのテンプレートレイアウト
+**********/
+
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sub_content {
+  background-color: #840000;
+  width: 300px;
+  height: 1055px;
+  border: 5px solid #cab99b;
+  text-align: center;
+}
+
+.main_content {
+  width: 1160px;
+  position: relative;
+}
+
+/**********
+ヘッダー
+**********/
+
+.team_image {
+  width: 280px;
+  height: 220px;
+  margin-top: 30px;
+}
+
+a{
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin: 25px 0;
+  text-decoration: none;
+  border-top: 5px solid #cab99b;
+  border-bottom: 5px solid #cab99b;
+}
+
+.select_content {
+  background-color: #c40000;
+  color: white;
+  font-size: 25px;
+  margin: 25px 0;
+  text-decoration: none;
+  border-top: 5px solid #cab99b;
+  border-bottom: 5px solid #cab99b;
+}
+
+/**********
+チーム順位のページ
+**********/
+
+.index_title {
+  font-size: 40px;
+  text-align: center;
+  background-color: darkgray;
+  color: white;
+}
+
+.index_sub_title {
+  font-size: 30px;
+  text-align: center;
+  margin: 16px auto 0 auto;
+  position: relative;
+  color: coral;
+  width: 519px;
+}
+
+.ranking_title {
+  font-size: 25px;
+  text-align: center;
+  width: 950px;
+  background-color: #dcdcdc;
+  margin: 30px auto 10px auto;
+  border-radius: 10px;
+}
+
+.index_number_title {
+  font-size: 50px;
+  color: black;
+}
+
+.ranking_second_title {
+  font-size: 25px;
+  text-align: center;
+  width: 950px;
+  background-color: #dcdcdc;
+  margin: 20px auto 10px auto;
+  border-radius: 10px;
+}
+
+.title_frame {
+  display: block;
+  margin: 10px auto 0 auto;
+  height: 100px;
+  width: 520px;
+  position: absolute;
+  top: -16px;
+}
+
+/**********
+テーブル設定
+**********/
+
+.ranking_table {
+  margin: 0px auto;
+  overflow-y: auto;
+}
+
+table {
+  width: 950px;
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+.cell_top {
+  position: sticky;
+  top: 0;
+  left: 2px;
+}
+
+.cell_center {
+  position: sticky;
+  top: 0;
+  left: 64px;
+}
+
+.cell_right {
+  position: sticky;
+  top: 0;
+  left: 277px;
+}
+
+.cell_rakuten_color {
+  background-color: #FF9999;
+}
+
+.cell_size {
+  width: 60px;
+}
+
+tr {
+  border: 3px solid #7d7d7d;
+  /* background-color: #FF9999; */
+}
+
+td {
+  text-align: center;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  background-color: beige;
+}
+
+th {
+  font-weight: 400;
+  font-size: 20px;
+  background-color: white;
+}
+
+td, th {
+  border: 1px solid #000;
+}

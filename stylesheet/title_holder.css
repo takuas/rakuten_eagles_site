@@ -1,0 +1,102 @@
+/**********
+title_holder.css
+**********/
+.current_page {
+    background-color: #c40000;
+}
+
+.title_holder_main{
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.title_holder_box{
+    border: 1px solid black;
+    width: 200px;
+    height: 170px;
+    margin-right:50px;
+}
+
+.title_holder_up{
+    margin: 60px 0 0 120px;  
+    display: flex;
+}
+
+.title_holder_down{
+    margin: 60px 0 0 290px;
+}
+
+.title_holder_plate{
+    display: flex;
+}
+
+.title_image{
+    width: 135.97px;
+    height: 170px;
+}
+
+.name, .record, .position, .award{
+    text-align:left;
+}
+
+.title{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/**********
+index.css
+**********/
+
+/**********
+ページのテンプレートレイアウト
+**********/
+
+.layout {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .sub_content {
+    background-color: #840000;
+    width: 20vw;
+    height: 1200px;
+  }
+  
+  .main_content {
+    width: 70vw;
+    text-align: center;
+    /* width: 1000px; */
+}
+  
+  /**********
+  ヘッダー
+  **********/
+  
+  .team_image {
+    width: 19vw;
+    height: 220px;
+  }
+  
+  .sub_content {
+    text-align: center;
+  }
+  
+  a{
+    display: block;
+    color: white;
+    font-size: 25px;
+    margin: 25px 0;
+    text-decoration: none;
+  }
+
